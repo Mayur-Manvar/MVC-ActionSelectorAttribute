@@ -28,5 +28,10 @@ namespace ActionSelector.Controllers
         {
             return "This is non action method attribute example";
         }
+
+        public string NonActionMethod2()
+        {
+            return "This is non action method attribute examples";
+        }
     }
 }
