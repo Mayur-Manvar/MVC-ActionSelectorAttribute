@@ -22,5 +22,11 @@ namespace ActionSelector.Controllers
         {
             return View("Details");
         }
+
+        [NonAction]
+        public string NonActionMethod()
+        {
+            return "This is non action method attribute example";
+        }
     }
 }
