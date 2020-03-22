@@ -10,7 +10,7 @@ namespace ActionSelector.Controllers
     {
         // GET: Home
         [ActionName("Home")]
-        [HttpGet]
+        [HttpGet] // Use can user [AcceptVerb attribute instead of this attribute.]
         public string Index()
         {
             return "Index Action Method is called.";
